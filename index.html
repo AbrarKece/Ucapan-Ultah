@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="theme-color"
+        content="#500018"
+    >
+
+    <title>Happy Birthday ♡</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<main class="website">
+
+    <!-- ==================================
+         PAGE 1: HOME
+    =================================== -->
+    <section class="page home-page active" id="homePage">
+
+        <!-- Mawar di pojok kiri atas -->
+        <img
+            src="assets/bunga_ornamen.png"
+            alt=""
+            class="asset home-rose"
+        >
+
+        <!-- Kupu-kupu di sisi kanan -->
+        <img
+            src="assets/kupu_kupu.png"
+            alt=""
+            class="asset home-butterfly"
+        >
+
+        <h1 class="home-title">
+            happy birthday!
+        </h1>
+
+        <!-- Kue utama -->
+        <button
+            class="cake-button"
+            id="cakeButton"
+            aria-label="Klik kue untuk membuka kejutan"
+        >
+            <img
+                src="assets/kue.png"
+                alt="Kue ulang tahun"
+                class="home-cake"
+            >
+        </button>
+
+        <p class="home-caption">
+            click the cake to see a surprise!
+        </p>
+
+    </section>
+
+
+    <!-- ==================================
+         PAGE 2: SECRET LETTER
+    =================================== -->
+    <section class="page envelope-page" id="envelopePage">
+
+        <h1 class="envelope-title">
+            Someone has a little<br>
+            surprise for you...
+        </h1>
+
+        <button
+            class="envelope-button"
+            id="envelopeButton"
+            aria-label="Buka amplop"
+        >
+            <img
+                src="assets/amplop_tertutup.png"
+                alt="Amplop tertutup"
+                class="envelope-image"
+            >
+        </button>
+
+        <p class="envelope-caption">
+            Open your letter ♡
+        </p>
+
+    </section>
+
+
+    <!-- ==================================
+         PAGE 3: ISI SURAT
+    =================================== -->
+    <section class="page letter-page" id="letterPage">
+
+
+        <!-- Dekorasi kucing bagian atas -->
+        <img
+            src="assets/kucingtopi.png"
+            alt=""
+            class="asset letter-cat letter-cat-left"
+        >
+
+        <img
+            src="assets/kucingkado.png"
+            alt=""
+            class="asset letter-cat letter-cat-right"
+        >
+
+        <!-- Surat -->
+        <div class="letter-paper">
+
+            <img
+                src="assets/surat.jpg"
+                alt=""
+                class="letter-paper-image"
+            >
+
+            <div class="letter-content">
+
+                <h2>Happy Birthday, Sayangku 🤍</h2>
+
+                <p>
+                    Semoga di usia baru ini, banyak hal baik
+                    datang ke hidup kamu dan doa-doa kamu
+                    satu per satu bisa terwujud.
+                </p>
+
+                <p>
+                    Sayang, kamu nggak harus menghadapi
+                    semuanya sendirian lagi, yaa. Ada aku
+                    yang siap dengerin cerita kamu, nemenin
+                    kamu saat lelah, dan jadi tempat kamu
+                    bersandar ketika dunia terasa berat.
+                    Kamu nggak harus selalu kuat di depan aku.
+                </p>
+
+                <p>
+                    Aku sayang banget sama kamu, dan aku
+                    bersyukur bisa punya kamu di hidup aku.
+                    Selamat ulang tahun, Nabil. Jangan lupa
+                    kalau kamu berharga, kamu pantas bahagia,
+                    dan sekarang kamu nggak sendirian lagi.
+                    Ada aku di sini, sayang. 🤍
+                </p>
+
+            </div>
+
+        </div>
+
+        <p class="letter-caption">
+            A little letter,<br>
+            just for you ♡
+        </p>
+
+        <button
+            class="continue-button letter-continue"
+            data-next="flowerPage"
+        >
+            Continue ♡
+        </button>
+
+    </section>
+
+
+    <!-- ==================================
+         PAGE 4: BUNGA
+    =================================== -->
+    <section class="page flower-page" id="flowerPage">
+
+        <h1 class="flower-title">
+            your favorite flower! ♡
+        </h1>
+
+        <!-- Buket bunga -->
+        <img
+            src="assets/bunga_fav.png"
+            alt="Buket bunga"
+            class="asset flower-bouquet"
+        >
+
+        <!-- Dekorasi kucing bawah -->
+        <img
+            src="assets/kucing_bunga1.png"
+            alt=""
+            class="asset flower-cat flower-cat-left"
+        >
+
+        <img
+            src="assets/kucing_bunga2.png"
+            alt=""
+            class="asset flower-cat flower-cat-right"
+        >
+
+        <button
+            class="continue-button flower-continue"
+            data-next="wishPage"
+        >
+            One last surprise ♡
+        </button>
+
+    </section>
+
+
+    <!-- ==================================
+         PAGE 5: MAKE A WISH
+    =================================== -->
+    <section class="page wish-page" id="wishPage">
+
+        <h1 class="wish-title">
+            Make a Wish ♡
+        </h1>
+
+        <p class="wish-description">
+            Tutup mata dan make a wish !!!
+        </p>
+
+        <!-- Dekorasi kiri -->
+        <img
+            src="assets/kucingtopi.png"
+            alt=""
+            class="asset wish-cat wish-cat-left"
+        >
+
+        <!-- Dekorasi kanan -->
+        <img
+            src="assets/kucing_kue.png"
+            alt=""
+            class="asset wish-cat wish-cat-right"
+        >
+
+        <!-- Kue -->
+        <div class="wish-cake-wrap">
+
+            <img
+                src="assets/kue1.png"
+                alt="Kue ulang tahun"
+                class="asset wish-cake"
+            >
+
+            <!-- Api dibuat sebagai objek terpisah -->
+            <button
+                class="flame-button"
+                id="flameButton"
+                aria-label="Padamkan lilin"
+            >
+                <img
+                    src="assets/api.png"
+                    alt=""
+                    class="flame-image"
+                >
+            </button>
+
+            <span
+                class="smoke"
+                id="smoke"
+                aria-hidden="true"
+            ></span>
+
+        </div>
+
+        <p class="wish-instruction" id="wishInstruction">
+            click api untuk meniup lilin !
+        </p>
+
+        <!-- Muncul setelah lilin padam -->
+        <div class="wish-complete" id="wishComplete">
+
+            <h2>HAPPY BIRTHDAY!!! 🎉</h2>
+
+            <p>
+                Semoga semua harapan baik kamu
+                menemukan jalannya. 🤍
+            </p>
+
+            <button
+                class="continue-button"
+                id="finalContinue"
+            >
+                One last thing ♡
+            </button>
+
+        </div>
+
+        <div
+            class="confetti-container"
+            id="confettiContainer"
+            aria-hidden="true"
+        ></div>
+
+    </section>
+
+
+    <!-- ==================================
+         PAGE 6: LAST PAGE
+    =================================== -->
+    <section class="page final-page" id="finalPage">
+
+        <div class="final-message">
+
+            <h1>
+                Before you go... ♡
+            </h1>
+
+            <p>
+                I hope this little surprise made you smile.
+                May your days be filled with beautiful things,
+                little happiness, and all the love you deserve.
+            </p>
+
+            <p>
+                Selamat ulang tahun, Nabil.
+                Semoga kamu selalu bahagia.
+                Happy Birthday, sayangku! 🤍
+            </p>
+
+        </div>
+
+        <!-- Dekorasi ucapan -->
+        <img
+            src="assets/ily.png"
+            alt=""
+            class="asset final-decoration"
+        >
+
+        <!-- Foto-foto -->
+        <div class="final-photos">
+
+            <img
+                src="assets/foto1.png"
+                alt="Kenangan pertama"
+                class="asset final-photo final-photo-one"
+            >
+
+            <img
+                src="assets/FOTO3.png"
+                alt="Kenangan kedua"
+                class="asset final-photo final-photo-two"
+            >
+
+        </div>
+
+        <!-- Dekorasi kucing -->
+        <img
+            src="assets/kucing_bunga1.png"
+            alt=""
+            class="asset final-cat final-cat-left"
+        >
+
+        <img
+            src="assets/kucing_bunga2.png"
+            alt=""
+            class="asset final-cat final-cat-right"
+        >
+
+        <p class="final-signature">
+            Made with love, just for you ♡
+        </p>
+
+    </section>
+
+</main>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
